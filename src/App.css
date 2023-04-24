@@ -1,0 +1,68 @@
+.container {
+  font-family: "Roboto";
+  width: 100%;
+}
+
+.container > h1 {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > h2 {
+  font-size: 30px;
+  word-wrap: break-word;
+}
+
+.list {
+  background-color: #5c47d2;
+}
+
+.list * {
+  background-color: white;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  gap: 15px;
+}
+.card {
+  border: 10px solid red;
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 17px;
+  border-radius: 5px;
+}
+
+.card > p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.list .card:nth-child(5n + 2) {
+  border: 10px solid #3ea535;
+}
+.list .card:nth-child(5n + 3) {
+  border: 10px solid #ffee00;
+}
+.list .card:nth-child(5n + 4) {
+  border: 10px solid #039fe3;
+}
+
+.list .card:nth-child(5n + 5) {
+  border: 10px solid #f8c5af;
+}
