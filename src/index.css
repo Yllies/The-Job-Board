@@ -127,17 +127,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-.footer {
-  font-family: "Roboto";
-  background-color: #dddddd;
-  height: 63px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer span {
-  font-weight: bold;
-  font-size: 18px;
-}

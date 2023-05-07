@@ -56,13 +56,29 @@
 .list .card:nth-child(5n + 2) {
   border: 10px solid #3ea535;
 }
+
 .list .card:nth-child(5n + 3) {
   border: 10px solid #ffee00;
 }
+
 .list .card:nth-child(5n + 4) {
   border: 10px solid #039fe3;
 }
 
 .list .card:nth-child(5n + 5) {
   border: 10px solid #f8c5af;
+}
+
+.footer {
+  font-family: "Roboto";
+  background-color: #dddddd;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  font-weight: bold;
+  font-size: 18px;
 }
